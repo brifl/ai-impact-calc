@@ -3,7 +3,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Any, Mapping, Optional, Protocol, Tuple, Dict
-from models import Signal, TimeHorizon, RegimeMixture, Regime
 from enum import Enum
 
 # =============================================================================
@@ -78,7 +77,7 @@ class TimeHorizon(str, Enum):
     MID = "2-5y"
     LONG = "5-12y"
 
-@dataclass(frozen=True)
+@dataclass
 class Signal:
     """
     value: numeric value or score (provider-defined)

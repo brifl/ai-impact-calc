@@ -1,0 +1,318 @@
+{
+  "Microsoft": {
+    "macro.tightness_index": {
+      "value": 0.45,
+      "scale": "normalized_0_1",
+      "confidence": 0.9,
+      "freshness_days": 7
+    },
+    "macro.company_sensitivity": {
+      "value": 0.35,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 30
+    },
+    "constraint.power_access_good": {
+      "value": 0.85,
+      "scale": "normalized_0_1",
+      "confidence": 0.92,
+      "freshness_days": 14
+    },
+    "constraint.compute_access_good": {
+      "value": 0.80,
+      "scale": "normalized_0_1",
+      "confidence": 0.90,
+      "freshness_days": 14
+    },
+    "trust.security_maturity_good": {
+      "value": 0.82,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 60
+    },
+    "trust.auditability_good": {
+      "value": 0.78,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 60
+    },
+    "trust.provenance_support_good": {
+      "value": 0.65,
+      "scale": "normalized_0_1",
+      "confidence": 0.75,
+      "freshness_days": 90
+    },
+    "trust.security_incident_bad": {
+      "value": 0.15,
+      "scale": "normalized_0_1",
+      "confidence": 0.80,
+      "freshness_days": 7
+    },
+    "platform.distribution_lock_good": {
+      "value": 0.88,
+      "scale": "normalized_0_1",
+      "confidence": 0.91,
+      "freshness_days": 30
+    },
+    "platform.switching_cost_good": {
+      "value": 0.85,
+      "scale": "normalized_0_1",
+      "confidence": 0.89,
+      "freshness_days": 30
+    },
+    "platform.data_advantage_good": {
+      "value": 0.72,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 45
+    },
+    "platform.network_effects_good": {
+      "value": 0.70,
+      "scale": "normalized_0_1",
+      "confidence": 0.80,
+      "freshness_days": 45
+    },
+    "org.ship_velocity_good": {
+      "value": 0.75,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 30
+    },
+    "org.talent_density_good": {
+      "value": 0.80,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 30
+    },
+    "org.internal_agent_adoption_good": {
+      "value": 0.68,
+      "scale": "normalized_0_1",
+      "confidence": 0.78,
+      "freshness_days": 60
+    },
+    "org.restructure_velocity_good": {
+      "value": 0.72,
+      "scale": "normalized_0_1",
+      "confidence": 0.80,
+      "freshness_days": 60
+    },
+    "reg.compliance_readiness_good": {
+      "value": 0.80,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 90
+    },
+    "reg.liability_readiness_good": {
+      "value": 0.78,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 90
+    },
+    "geo.export_control_exposure_bad": {
+      "value": 0.25,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 60
+    },
+    "geo.sanctions_exposure_bad": {
+      "value": 0.20,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 60
+    },
+    "reg.antitrust_risk_bad": {
+      "value": 0.35,
+      "scale": "normalized_0_1",
+      "confidence": 0.78,
+      "freshness_days": 90
+    },
+    "capital.free_cash_flow_strength_good": {
+      "value": 0.85,
+      "scale": "normalized_0_1",
+      "confidence": 0.92,
+      "freshness_days": 30
+    },
+    "capital.balance_sheet_strength_good": {
+      "value": 0.82,
+      "scale": "normalized_0_1",
+      "confidence": 0.90,
+      "freshness_days": 30
+    },
+    "capital.mna_integration_skill_good": {
+      "value": 0.78,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 60
+    },
+    "capital.allocation_discipline_good": {
+      "value": 0.75,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 60
+    },
+    "capital.moonshot_propensity_bad": {
+      "value": 0.30,
+      "scale": "normalized_0_1",
+      "confidence": 0.75,
+      "freshness_days": 90
+    }
+  },
+  "Google": {
+    "macro.tightness_index": {
+      "value": 0.45,
+      "scale": "normalized_0_1",
+      "confidence": 0.9,
+      "freshness_days": 7
+    },
+    "macro.company_sensitivity": {
+      "value": 0.40,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 30
+    },
+    "constraint.power_access_good": {
+      "value": 0.88,
+      "scale": "normalized_0_1",
+      "confidence": 0.92,
+      "freshness_days": 14
+    },
+    "constraint.compute_access_good": {
+      "value": 0.90,
+      "scale": "normalized_0_1",
+      "confidence": 0.93,
+      "freshness_days": 14
+    },
+    "trust.security_maturity_good": {
+      "value": 0.80,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 60
+    },
+    "trust.auditability_good": {
+      "value": 0.76,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 60
+    },
+    "trust.provenance_support_good": {
+      "value": 0.62,
+      "scale": "normalized_0_1",
+      "confidence": 0.75,
+      "freshness_days": 90
+    },
+    "trust.security_incident_bad": {
+      "value": 0.18,
+      "scale": "normalized_0_1",
+      "confidence": 0.80,
+      "freshness_days": 7
+    },
+    "platform.distribution_lock_good": {
+      "value": 0.92,
+      "scale": "normalized_0_1",
+      "confidence": 0.93,
+      "freshness_days": 30
+    },
+    "platform.switching_cost_good": {
+      "value": 0.88,
+      "scale": "normalized_0_1",
+      "confidence": 0.90,
+      "freshness_days": 30
+    },
+    "platform.data_advantage_good": {
+      "value": 0.85,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 45
+    },
+    "platform.network_effects_good": {
+      "value": 0.82,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 45
+    },
+    "org.ship_velocity_good": {
+      "value": 0.72,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 30
+    },
+    "org.talent_density_good": {
+      "value": 0.78,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 30
+    },
+    "org.internal_agent_adoption_good": {
+      "value": 0.70,
+      "scale": "normalized_0_1",
+      "confidence": 0.80,
+      "freshness_days": 60
+    },
+    "org.restructure_velocity_good": {
+      "value": 0.68,
+      "scale": "normalized_0_1",
+      "confidence": 0.78,
+      "freshness_days": 60
+    },
+    "reg.compliance_readiness_good": {
+      "value": 0.78,
+      "scale": "normalized_0_1",
+      "confidence": 0.86,
+      "freshness_days": 90
+    },
+    "reg.liability_readiness_good": {
+      "value": 0.76,
+      "scale": "normalized_0_1",
+      "confidence": 0.83,
+      "freshness_days": 90
+    },
+    "geo.export_control_exposure_bad": {
+      "value": 0.30,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 60
+    },
+    "geo.sanctions_exposure_bad": {
+      "value": 0.22,
+      "scale": "normalized_0_1",
+      "confidence": 0.85,
+      "freshness_days": 60
+    },
+    "reg.antitrust_risk_bad": {
+      "value": 0.50,
+      "scale": "normalized_0_1",
+      "confidence": 0.82,
+      "freshness_days": 90
+    },
+    "capital.free_cash_flow_strength_good": {
+      "value": 0.88,
+      "scale": "normalized_0_1",
+      "confidence": 0.93,
+      "freshness_days": 30
+    },
+    "capital.balance_sheet_strength_good": {
+      "value": 0.85,
+      "scale": "normalized_0_1",
+      "confidence": 0.92,
+      "freshness_days": 30
+    },
+    "capital.mna_integration_skill_good": {
+      "value": 0.82,
+      "scale": "normalized_0_1",
+      "confidence": 0.88,
+      "freshness_days": 60
+    },
+    "capital.allocation_discipline_good": {
+      "value": 0.70,
+      "scale": "normalized_0_1",
+      "confidence": 0.78,
+      "freshness_days": 60
+    },
+    "capital.moonshot_propensity_bad": {
+      "value": 0.38,
+      "scale": "normalized_0_1",
+      "confidence": 0.78,
+      "freshness_days": 90
+    }
+  }
+}
